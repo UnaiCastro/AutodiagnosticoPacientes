@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.imgRedonda {
+    width: 100px;
+    height: auto;
+    border-radius: 150px;
+}
+
+.px-md-6 {
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+.imgCuadrada {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+
+
+.margenRegistro {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+.contenedorRegistro {
+    max-width: 576px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bordeRegistro {
+    border: 2px solid #9b9b9b;
+}
+
+.margenVolver {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textLinks {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+
+.seleccionado {
+    background-color: #0b5ed7;
+}
+
+@media (max-width: 1400px) {
+    .px-md-6 {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.option {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 45%; 
+}
+.option img {   
+    width: 100%; 
+    height: 150px; 
+    object-fit: contain; 
+    border-radius: 8px; 
+}
+.button-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+h1,h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.action-buttons button {
+    padding: 8px 12px;
+    margin: 4px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background-color: #c0392b;
+}
+
+.contenedorRegistro {
+    margin-top: 20px;
+}
+.bg-azul {
+    background-color: #007bff; 
+}
